@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: wrap;
+  /* height: 100vh;    */
+  /* Set the height to the viewport height */
+}
+
+.content {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  column-count: 2;
+  column-gap: 10px;
+  height: calc(100% - 40px); /* Subtract the height of the pagination buttons */
+  overflow-y: auto; /* Enable vertical scrollbar when content exceeds height */
+}
+
+.pagination-btn {
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+#pagination {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* .content {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in the width calculation 
+  display: flex;
+  flex-wrap: wrap; /* Allow divs to wrap to the next row 
+  align-items: flex-start; /* Align divs to the top of each column 
+} */
+
+
+
+
+
+
+
+
+/* .content > div {
+  width: 50%;
+  box-sizing: border-box; /* Include padding in the width calculation 
+  padding: 10px; /* Adjust the padding as needed 
+} */
+
+
+/* .content {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  padding: 10px;
+  /* box-sizing: border-box; Include padding in the width calculation 
+  
+} */
+/* .content > div {
+  width: 50%; /* Each div takes 50% width 
+  display: inline-block;
+  vertical-align: top; /* Align divs in a column-like fashion 
+} */
